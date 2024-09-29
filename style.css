@@ -1,0 +1,11 @@
+.grid {
+    height: 16px;
+    width: 16px;
+    flex: 1;
+}
+
+#container {
+    height: 256px;
+    width: 246px;
+    display: flex;
+}
