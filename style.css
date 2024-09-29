@@ -1,11 +1,24 @@
-.grid {
-    height: 16px;
-    width: 16px;
+.column {
+    display: flex;
     flex: 1;
+    flex-direction: column;
+}
+
+.grid {
+    flex: 1;
+    background-color: grey;
+}
+
+
+
+#screen {
+    display: flex;
+    height: 500px;
+    width: 500px;
 }
 
 #container {
-    height: 256px;
-    width: 246px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
